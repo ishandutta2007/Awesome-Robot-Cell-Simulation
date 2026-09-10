@@ -1,14 +1,102 @@
-# Awesome-Robot-Cell-Simulation
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Robot Cell Simulation Banner" width="100%" />
+</p>
 
-## Top Robot Cell Simulation — README.md
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Robot-Cell-Simulation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Robot-Cell-Simulation?style=flat-square&logo=github&color=gold" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Robot-Cell-Simulation/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Robot-Cell-Simulation?style=flat-square&logo=github&color=blue" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Robot-Cell-Simulation/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Robot-Cell-Simulation?style=flat-square&color=green" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Robot-Cell-Simulation/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Robot-Cell-Simulation/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+---
+
+# 🦾 Awesome Robot Cell Simulation & Digital Twins 🚀
+
+> **A curated, production-grade directory of the best Robot Cell Simulation platforms, Industrial Digital Twins, Offline Programming (OLP) suites, Robot Motion Planners, Kinematics Solvers, Physics Engines, and Open-Source building blocks.**
+
+A comprehensive technical guide and SEO index to **robot-cell simulation, industrial robot simulation, offline programming (OLP), robotic workcell design, digital twins, robot path planning, collision detection, process simulation, manufacturing simulation, virtual commissioning, and open-source alternatives** to leading commercial platforms such as **ABB RobotStudio, KUKA.Sim, Visual Components, Siemens Process Simulate, FANUC ROBOGUIDE, Visual Components Premium, DELMIA Robotics, OCTOPUZ, RoboDK, and Visual Components Essentials**.
+
+> 🎯 **Primary emphasis:** Open-source robot simulation, physics engines, industrial robotics frameworks, robot programming libraries, CAD/geometry platforms, motion-planning systems, digital-twin tools, and composable software that can be combined into a self-hosted alternative to commercial robot-cell simulation environments.
+
+---
 
 
 
-A comprehensive guide to **robot-cell simulation, industrial robot simulation, offline programming, robotic workcell design, digital twins, robot path planning, collision detection, process simulation, manufacturing simulation, virtual commissioning, and open-source alternatives** to leading platforms such as **ABB RobotStudio, KUKA.Sim, Visual Components, Siemens Process Simulate, FANUC ROBOGUIDE, Visual Components Premium, DELMIA Robotics, OCTOPUZ, RoboDK, and Visual Components Essentials**.
+## 📑 Table of Contents
 
-
-
-> **Primary emphasis:** Open-source robot simulation, physics engines, industrial robotics frameworks, robot programming libraries, CAD/geometry platforms, motion-planning systems, digital-twin tools, and composable software that can be combined into a self-hosted alternative to commercial robot-cell simulation environments.
+* [🤖 What Is Robot Cell Simulation?](#what-is-robot-cell-simulation)
+* [🏢 SaaS & Hosted Platforms](#saas--hosted-platforms)
+* [💻 Open-Source Ecosystem](#open-source)
+  * [⭐ Open-Source GitHub Projects](#-open-source-github-projects)
+  * [🌐 Complete / General Robotics Simulators](#complete--general-robotics-simulators)
+  * [🦾 Industrial Robot Simulation & Motion Planning](#industrial-robot-simulation--motion-planning)
+  * [⚡ Physics Engines](#physics-engines)
+  * [📐 Robot Modeling & Kinematics](#robot-modeling--kinematics)
+  * [🎨 CAD / 3D / Geometry](#cad--3d--geometry)
+  * [🛤️ Path Planning & Trajectory Optimization](#path-planning--trajectory-optimization)
+  * [🤖 ROS / ROS 2 Robotics](#ros--ros-2-robotics)
+  * [👓 Digital Twin & Visualization](#digital-twin--visualization)
+  * [📷 Computer Vision & Perception](#computer-vision--perception)
+  * [🏭 Manufacturing / Process Simulation Building Blocks](#manufacturing--process-simulation-building-blocks)
+  * [📊 Simulation Data & Automation](#simulation-data--automation)
+  * [🧪 Testing & Benchmarking](#testing--benchmarking)
+* [🔄 🔄 Commercial → Open-Source Mapping](#commercial--open-source-mapping)
+* [🧩 Robot Cell Simulation Problem Domains](#robot-cell-simulation-problem-domains)
+* [🏛️ Core Architecture](#core-architecture)
+* [📐 Reference Architecture](#reference-architecture)
+* [🏗️ Industrial Robot Cell Architecture](#industrial-robot-cell-architecture)
+* [💻 Offline Programming Architecture](#offline-programming-architecture)
+* [🔌 Virtual Commissioning Architecture](#virtual-commissioning-architecture)
+* [🌐 Digital Twin Architecture](#digital-twin-architecture)
+* [🛤️ Robot Path Planning Architecture](#robot-path-planning-architecture)
+* [💥 Collision Detection Architecture](#collision-detection-architecture)
+* [📊 Capability Matrix](#capability-matrix)
+* [🛠️ Recommended Open-Source Stacks](#recommended-open-source-stacks)
+* [🎯 Best Open-Source Choices by Use Case](#best-open-source-choices-by-use-case)
+* [⚖️ What Open Source Can and Cannot Replace](#what-open-source-can-and-cannot-replace)
+* [📦 Robot Cell Data Model](#robot-cell-data-model)
+* [🤖 Robot Model](#robot-model)
+* [🏭 Workcell Model](#workcell-model)
+* [📝 Robot Programming](#robot-programming)
+* [💻 Offline Programming](#offline-programming)
+* [🛤️ Path Planning](#path-planning)
+* [💥 Collision Detection](#collision-detection)
+* [📏 Reachability Analysis](#reachability-analysis)
+* [⏱️ Cycle-Time Analysis](#cycle-time-analysis)
+* [🌐 Digital Twin](#digital-twin)
+* [🔌 Virtual Commissioning](#virtual-commissioning)
+* [🎨 CAD Integration](#cad-integration)
+* [⚙️ Manufacturing Process Simulation](#manufacturing-process-simulation)
+* [🎯 Robot Calibration](#robot-calibration)
+* [🔄 Simulation-to-Real](#simulation-to-real)
+* [🧠 AI / ML Integration](#ai--ml-integration)
+* [🔒 Security & Deployment](#security--deployment)
+* [📈 Scalability](#scalability)
+* [📜 Licensing](#licensing)
+* [📋 Open-Source Ecosystem Summary](#open-source-ecosystem-summary)
+* [⭐ Open-Source Shortlist](#open-source-shortlist)
+* [💡 Why Gazebo Is Particularly Important](#why-gazebo-is-particularly-important)
+* [💡 Why CoppeliaSim Is Particularly Interesting](#why-coppeliasim-is-particularly-interesting)
+* [💡 Why MuJoCo Is Particularly Interesting](#why-mujoco-is-particularly-interesting)
+* [💡 Why Drake Is Particularly Interesting](#why-drake-is-particularly-interesting)
+* [🔨 Building an ABB RobotStudio Alternative](#building-an-abb-robotstudio-alternative)
+* [🔨 Building a KUKA.Sim Alternative](#building-a-kukasim-alternative)
+* [🔨 Building a FANUC ROBOGUIDE Alternative](#building-a-fanuc-roboguide-alternative)
+* [🔨 Building a RoboDK Alternative](#building-a-robodk-alternative)
+* [🔨 Building a Visual Components Alternative](#building-a-visual-components-alternative)
+* [🔨 Building a Siemens Process Simulate Alternative](#building-a-siemens-process-simulate-alternative)
+* [🔨 Building an OCTOPUZ Alternative](#building-an-octopuz-alternative)
+* [🔨 Building a DELMIA Robotics Alternative](#building-a-delmia-robotics-alternative)
+* [🚀 Building a Fully Open Robot Cell Simulator](#building-a-fully-open-robot-cell-simulator)
+* [📈 Star History](#-star-history)
+* [🏁 Conclusion](#conclusion)
+* [🤝 Contributing](#contributing)
+* [📜 Disclaimer](#disclaimer)
 
 
 
@@ -16,151 +104,7 @@ A comprehensive guide to **robot-cell simulation, industrial robot simulation, o
 
 
 
-## Table of Contents
-
-
-
-* [What Is Robot Cell Simulation?](#what-is-robot-cell-simulation)
-
-* [SaaS / Hosted Platforms](#saas--hosted-platforms)
-
-* [Open-Source](#open-source)
-
-
-
-  * [Complete / General Robotics Simulators](#complete--general-robotics-simulators)
-
-  * [Industrial Robot Simulation & Motion Planning](#industrial-robot-simulation--motion-planning)
-
-  * [Physics Engines](#physics-engines)
-
-  * [Robot Modeling & Kinematics](#robot-modeling--kinematics)
-
-  * [CAD / 3D / Geometry](#cad--3d--geometry)
-
-  * [Path Planning & Trajectory Optimization](#path-planning--trajectory-optimization)
-
-  * [ROS / ROS 2 Robotics](#ros--ros-2-robotics)
-
-  * [Digital Twin & Visualization](#digital-twin--visualization)
-
-  * [Computer Vision & Perception](#computer-vision--perception)
-
-  * [Manufacturing / Process Simulation Building Blocks](#manufacturing--process-simulation-building-blocks)
-
-  * [Simulation Data & Automation](#simulation-data--automation)
-
-  * [Testing & Benchmarking](#testing--benchmarking)
-
-* [Commercial → Open-Source Mapping](#commercial--open-source-mapping)
-
-* [Robot Cell Simulation Problem Domains](#robot-cell-simulation-problem-domains)
-
-* [Core Architecture](#core-architecture)
-
-* [Reference Architecture](#reference-architecture)
-
-* [Industrial Robot Cell Architecture](#industrial-robot-cell-architecture)
-
-* [Offline Programming Architecture](#offline-programming-architecture)
-
-* [Virtual Commissioning Architecture](#virtual-commissioning-architecture)
-
-* [Digital Twin Architecture](#digital-twin-architecture)
-
-* [Robot Path Planning Architecture](#robot-path-planning-architecture)
-
-* [Collision Detection Architecture](#collision-detection-architecture)
-
-* [Capability Matrix](#capability-matrix)
-
-* [Recommended Open-Source Stacks](#recommended-open-source-stacks)
-
-* [Best Open-Source Choices by Use Case](#best-open-source-choices-by-use-case)
-
-* [What Open Source Can and Cannot Replace](#what-open-source-can-and-cannot-replace)
-
-* [Robot Cell Data Model](#robot-cell-data-model)
-
-* [Robot Model](#robot-model)
-
-* [Workcell Model](#workcell-model)
-
-* [Robot Programming](#robot-programming)
-
-* [Offline Programming](#offline-programming)
-
-* [Path Planning](#path-planning)
-
-* [Collision Detection](#collision-detection)
-
-* [Reachability Analysis](#reachability-analysis)
-
-* [Cycle-Time Analysis](#cycle-time-analysis)
-
-* [Digital Twin](#digital-twin)
-
-* [Virtual Commissioning](#virtual-commissioning)
-
-* [CAD Integration](#cad-integration)
-
-* [Manufacturing Process Simulation](#manufacturing-process-simulation)
-
-* [Robot Calibration](#robot-calibration)
-
-* [Simulation-to-Real](#simulation-to-real)
-
-* [AI / ML Integration](#ai--ml-integration)
-
-* [Security & Deployment](#security--deployment)
-
-* [Scalability](#scalability)
-
-* [Licensing](#licensing)
-
-* [Open-Source Ecosystem Summary](#open-source-ecosystem-summary)
-
-* [Open-Source Shortlist](#open-source-shortlist)
-
-* [Why Gazebo Is Particularly Important](#why-gazebo-is-particularly-important)
-
-* [Why CoppeliaSim Is Particularly Interesting](#why-coppeliasim-is-particularly-interesting)
-
-* [Why MuJoCo Is Particularly Interesting](#why-mujoco-is-particularly-interesting)
-
-* [Why Drake Is Particularly Interesting](#why-drake-is-particularly-interesting)
-
-* [Building an ABB RobotStudio Alternative](#building-an-abb-robotstudio-alternative)
-
-* [Building a KUKA.Sim Alternative](#building-a-kukasim-alternative)
-
-* [Building a FANUC ROBOGUIDE Alternative](#building-a-fanuc-roboguide-alternative)
-
-* [Building a RoboDK Alternative](#building-a-robodk-alternative)
-
-* [Building a Visual Components Alternative](#building-a-visual-components-alternative)
-
-* [Building a Siemens Process Simulate Alternative](#building-a-siemens-process-simulate-alternative)
-
-* [Building an OCTOPUZ Alternative](#building-an-octopuz-alternative)
-
-* [Building a DELMIA Robotics Alternative](#building-a-delmia-robotics-alternative)
-
-* [Building a Fully Open Robot Cell Simulator](#building-a-fully-open-robot-cell-simulator)
-
-* [Conclusion](#conclusion)
-
-* [Contributing](#contributing)
-
-* [Disclaimer](#disclaimer)
-
-
-
----
-
-
-
-# What Is Robot Cell Simulation?
+# 🤖 What Is Robot Cell Simulation?
 
 
 
@@ -296,7 +240,7 @@ Commercial platforms combine many of these capabilities into one environment. AB
 
 
 
-# SaaS / Hosted Platforms
+# 🏢 SaaS & Hosted Platforms
 
 
 
@@ -334,7 +278,7 @@ RoboDK is particularly notable among commercial tools because it supports a very
 
 
 
-# Open-Source
+# 💻 Open-Source Ecosystem
 
 
 
@@ -400,17 +344,50 @@ The open-source ecosystem can be represented as:
 
 ```
 
+---
 
+## 💻 Open-Source GitHub Projects
+
+*Open-source robot simulators, physics engines, motion planners, kinematics solvers, CAD modelers, and industrial robotics libraries. Ranked and sorted in descending order by **GitHub Star Count**:*
+
+| 📦 Repository & Project | ⭐ GitHub Stars | 🛠️ Tech Stack / Category | 📖 Description & Cell Simulation Capabilities |
+| :--- | :--- | :--- | :--- |
+| **[FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD)** | [![GitHub stars](https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=social&color=white)](https://github.com/FreeCAD/FreeCAD/stargazers) | C++ / Python | Open-source parametric 3D CAD modeler with dedicated Robot Workbench for simulating 6-axis industrial robot kinematics, reachability, and trajectory export. |
+| **[BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js)** | [![GitHub stars](https://img.shields.io/github/stars/BabylonJS/Babylon.js?style=social&color=white)](https://github.com/BabylonJS/Babylon.js/stargazers) | TypeScript / WebGL / WebGPU | Powerful, beautiful, and simple Web 3D rendering engine used to build lightweight, zero-install in-browser digital twins and robotic workcell viewers. |
+| **[blender/blender](https://github.com/blender/blender)** | [![GitHub stars](https://img.shields.io/github/stars/blender/blender?style=social&color=white)](https://github.com/blender/blender/stargazers) | C / C++ / Python | Professional open-source 3D creation suite; renders photorealistic cell layouts, models end-effectors, imports CAD geometry, and generates synthetic datasets. |
+| **[google-deepmind/mujoco](https://github.com/google-deepmind/mujoco)** | [![GitHub stars](https://img.shields.io/github/stars/google-deepmind/mujoco?style=social&color=white)](https://github.com/google-deepmind/mujoco/stargazers) | C / C++ / Python | Multi-Joint dynamics with Contact; gold-standard physics engine for multi-body contact simulation, dexterous manipulation, and trajectory optimization. |
+| **[bulletphysics/bullet3](https://github.com/bulletphysics/bullet3)** | [![GitHub stars](https://img.shields.io/github/stars/bulletphysics/bullet3?style=social&color=white)](https://github.com/bulletphysics/bullet3/stargazers) | C++ / Python (PyBullet) | Industry-standard real-time collision detection and multi-body dynamics engine; widely used for robotics simulation, VR, and reinforcement learning. |
+| **[isl-org/Open3D](https://github.com/isl-org/Open3D)** | [![GitHub stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers) | C++ / Python | Modern library for 3D data processing; provides point cloud registration, mesh processing, surface reconstruction, and sensor simulation for workcells. |
+| **[assimp/assimp](https://github.com/assimp/assimp)** | [![GitHub stars](https://img.shields.io/github/stars/assimp/assimp?style=social&color=white)](https://github.com/assimp/assimp/stargazers) | C++ | Open Asset Import Library; loads and parses 40+ 3D file formats (STEP, IGES, STL, OBJ, glTF, Collada) into unified mesh structures for robot cells. |
+| **[isaac-sim/IsaacLab](https://github.com/isaac-sim/IsaacLab)** | [![GitHub stars](https://img.shields.io/github/stars/isaac-sim/IsaacLab?style=social&color=white)](https://github.com/isaac-sim/IsaacLab/stargazers) | Python / C++ | Unified and modular framework for robot learning in NVIDIA Isaac Sim; supports GPU-accelerated reinforcement learning and workcell manipulation tasks. |
+| **[NVIDIA-Omniverse/PhysX](https://github.com/NVIDIA-Omniverse/PhysX)** | [![GitHub stars](https://img.shields.io/github/stars/NVIDIA-Omniverse/PhysX?style=social&color=white)](https://github.com/NVIDIA-Omniverse/PhysX/stargazers) | C++ | Scalable real-time multi-platform physics engine powering NVIDIA Isaac Sim; provides rigid body, articulated robotics, and contact dynamics. |
+| **[cyberbotics/webots](https://github.com/cyberbotics/webots)** | [![GitHub stars](https://img.shields.io/github/stars/cyberbotics/webots?style=social&color=white)](https://github.com/cyberbotics/webots/stargazers) | C++ / Python / Java | Complete open-source robotics simulation package; offers realistic physics, industrial robot arm models, sensors, and out-of-the-box ROS/ROS 2 bridges. |
+| **[RobotLocomotion/drake](https://github.com/RobotLocomotion/drake)** | [![GitHub stars](https://img.shields.io/github/stars/RobotLocomotion/drake?style=social&color=white)](https://github.com/RobotLocomotion/drake/stargazers) | C++ / Python | MIT model-based design and verification toolbox for robotics; state-of-the-art inverse kinematics, trajectory optimization, and contact mechanics. |
+| **[stack-of-tasks/pinocchio](https://github.com/stack-of-tasks/pinocchio)** | [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=social&color=white)](https://github.com/stack-of-tasks/pinocchio/stargazers) | C++ / Python | Blazing-fast rigid body dynamics library using spatial vector algebra; provides hyper-fast analytical derivatives of forward/inverse dynamics. |
+| **[openscenegraph/OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph)** | [![GitHub stars](https://img.shields.io/github/stars/openscenegraph/OpenSceneGraph?style=social&color=white)](https://github.com/openscenegraph/OpenSceneGraph/stargazers) | C++ | High-performance open-source 3D graphics toolkit; used in industrial cell simulation, digital twins, and scientific visualization environments. |
+| **[petercorke/robotics-toolbox-python](https://github.com/petercorke/robotics-toolbox-python)** | [![GitHub stars](https://img.shields.io/github/stars/petercorke/robotics-toolbox-python?style=social&color=white)](https://github.com/petercorke/robotics-toolbox-python/stargazers) | Python | Iconic Robotics Toolbox for Python; provides serial-link arm kinematics, DH parameters, trajectory generation, and 3D graphic visualization. |
+| **[Open-Cascade-SAS/OCCT](https://github.com/Open-Cascade-SAS/OCCT)** | [![GitHub stars](https://img.shields.io/github/stars/Open-Cascade-SAS/OCCT?style=social&color=white)](https://github.com/Open-Cascade-SAS/OCCT/stargazers) | C++ | Open CASCADE Technology; the premier open-source 3D CAD modeling kernel for boundary representation (B-Rep), STEP/IGES exchange, and boolean ops. |
+| **[ompl/ompl](https://github.com/ompl/ompl)** | [![GitHub stars](https://img.shields.io/github/stars/ompl/ompl?style=social&color=white)](https://github.com/ompl/ompl/stargazers) | C++ / Python | Open Motion Planning Library; contains sampling-based motion planning algorithms (RRT*, PRM*, KPIECE) that power MoveIt 2 and Tesseract. |
+| **[moveit/moveit2](https://github.com/moveit/moveit2)** | [![GitHub stars](https://img.shields.io/github/stars/moveit/moveit2?style=social&color=white)](https://github.com/moveit/moveit2/stargazers) | C++ / ROS 2 | The robotics manipulation platform for ROS 2; incorporates state-of-the-art motion planning, inverse kinematics, 3D perception, and collision checking. |
+| **[flexible-collision-library/fcl](https://github.com/flexible-collision-library/fcl)** | [![GitHub stars](https://img.shields.io/github/stars/flexible-collision-library/fcl?style=social&color=white)](https://github.com/flexible-collision-library/fcl/stargazers) | C++ | Flexible Collision Library; provides proximity computation, discrete collision detection, continuous collision checking, and tolerance verification. |
+| **[gazebosim/gz-sim](https://github.com/gazebosim/gz-sim)** | [![GitHub stars](https://img.shields.io/github/stars/gazebosim/gz-sim?style=social&color=white)](https://github.com/gazebosim/gz-sim/stargazers) | C++ / ROS 2 | Next-generation Gazebo simulator; modular physics and rendering architecture designed for high-fidelity multi-robot workcells and ROS 2 systems. |
+| **[dartsim/dart](https://github.com/dartsim/dart)** | [![GitHub stars](https://img.shields.io/github/stars/dartsim/dart?style=social&color=white)](https://github.com/dartsim/dart/stargazers) | C++ | Dynamic Animation and Robotics Toolkit; provides kinematics and dynamics for multi-body systems with DART physics integration. |
+| **[hungpham2511/toppra](https://github.com/hungpham2511/toppra)** | [![GitHub stars](https://img.shields.io/github/stars/hungpham2511/toppra?style=social&color=white)](https://github.com/hungpham2511/toppra/stargazers) | C++ / Python | Time-Optimal Path Parameterization based on Reachability Analysis; computes time-optimal trajectories under velocity, acceleration, and torque constraints. |
+| **[orocos/orocos_kinematics_dynamics](https://github.com/orocos/orocos_kinematics_dynamics)** | [![GitHub stars](https://img.shields.io/github/stars/orocos/orocos_kinematics_dynamics?style=social&color=white)](https://github.com/orocos/orocos_kinematics_dynamics/stargazers) | C++ / Python | Orocos Kinematics and Dynamics Library (KDL); computes forward/inverse kinematics, geometric transformations, and kinematic chains for robotic arms. |
+| **[UniversalRobots/Universal_Robots_ROS2_Driver](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver)** | [![GitHub stars](https://img.shields.io/github/stars/UniversalRobots/Universal_Robots_ROS2_Driver?style=social&color=white)](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/stargazers) | C++ / ROS 2 | Official ROS 2 driver and simulation package for Universal Robots; provides URSim digital-twin simulation and external control interface. |
+| **[coal-library/coal](https://github.com/coal-library/coal)** | [![GitHub stars](https://img.shields.io/github/stars/coal-library/coal?style=social&color=white)](https://github.com/coal-library/coal/stargazers) | C++ / Python | Formerly HPP-FCL; collision and distance computation library with support for capsules, convex hulls, octrees, and fast proximity queries. |
+| **[tesseract-robotics/trajopt](https://github.com/tesseract-robotics/trajopt)** | [![GitHub stars](https://img.shields.io/github/stars/tesseract-robotics/trajopt?style=social&color=white)](https://github.com/tesseract-robotics/trajopt/stargazers) | C++ | Sequential quadratic programming (SQP) trajectory optimization framework for industrial robot collision avoidance and motion planning. |
+| **[open-rmf/rmf](https://github.com/open-rmf/rmf)** | [![GitHub stars](https://img.shields.io/github/stars/open-rmf/rmf?style=social&color=white)](https://github.com/open-rmf/rmf/stargazers) | C++ / ROS 2 | Open Robotics Middleware Framework; coordinates multi-fleet AMRs, automated doors, lifts, and workcell synchronization in smart factories. |
+| **[tesseract-robotics/tesseract](https://github.com/tesseract-robotics/tesseract)** | [![GitHub stars](https://img.shields.io/github/stars/tesseract-robotics/tesseract?style=social&color=white)](https://github.com/tesseract-robotics/tesseract/stargazers) | C++ / ROS 2 | Industrial motion planning and environment management framework designed specifically for robotic machining, welding, and painting workcells. |
+| **[ros-industrial/industrial_core](https://github.com/ros-industrial/industrial_core)** | [![GitHub stars](https://img.shields.io/github/stars/ros-industrial/industrial_core?style=social&color=white)](https://github.com/ros-industrial/industrial_core/stargazers) | C++ / ROS | Core ROS-Industrial packages containing standard interfaces, trajectory filters, and robot controller communication clients. |
 
 ---
 
-
-
-# Complete / General Robotics Simulators
+# 🌐 Complete / General Robotics Simulators
 
 
 
-## 1. Gazebo
+## 1. Gazebo [![GitHub stars](https://img.shields.io/github/stars/gazebosim/gz-sim?style=social&color=white)](https://github.com/gazebosim/gz-sim/stargazers)
 
 
 
@@ -504,7 +481,7 @@ Current Gazebo is the successor to the older Gazebo Classic ecosystem; Gazebo Cl
 
 
 
-# 2. Webots
+## 2. Webots [![GitHub stars](https://img.shields.io/github/stars/cyberbotics/webots?style=social&color=white)](https://github.com/cyberbotics/webots/stargazers)
 
 
 
@@ -578,7 +555,7 @@ It is particularly useful for:
 
 
 
-# 3. MuJoCo
+## 3. MuJoCo [![GitHub stars](https://img.shields.io/github/stars/google-deepmind/mujoco?style=social&color=white)](https://github.com/google-deepmind/mujoco/stargazers)
 
 
 
@@ -692,7 +669,7 @@ Independent simulator comparisons have evaluated CoppeliaSim alongside Gazebo, W
 
 
 
-# 5. PyBullet
+## 5. PyBullet [![GitHub stars](https://img.shields.io/github/stars/bulletphysics/bullet3?style=social&color=white)](https://github.com/bulletphysics/bullet3/stargazers)
 
 
 
@@ -732,7 +709,7 @@ Useful for:
 
 
 
-# 6. Drake
+## 6. Drake [![GitHub stars](https://img.shields.io/github/stars/RobotLocomotion/drake?style=social&color=white)](https://github.com/RobotLocomotion/drake/stargazers)
 
 
 
@@ -786,7 +763,7 @@ Drake is especially strong for mathematically rigorous robotics applications.
 
 
 
-# 7. Newton
+## 7. Newton [![GitHub stars](https://img.shields.io/github/stars/newton-physics/newton?style=social&color=white)](https://github.com/newton-physics/newton/stargazers)
 
 
 
@@ -866,11 +843,11 @@ This combination is particularly powerful for building an open industrial roboti
 
 
 
-# Industrial Robot Simulation & Motion Planning
+# 🦾 Industrial Robot Simulation & Motion Planning
 
 
 
-## MoveIt 2
+## MoveIt 2 [![GitHub stars](https://img.shields.io/github/stars/moveit/moveit2?style=social&color=white)](https://github.com/moveit/moveit2/stargazers)
 
 
 
@@ -958,7 +935,7 @@ MoveIt 2
 
 
 
-# Tesseract Robotics
+## Tesseract Robotics [![GitHub stars](https://img.shields.io/github/stars/tesseract-robotics/tesseract?style=social&color=white)](https://github.com/tesseract-robotics/tesseract/stargazers)
 
 
 
@@ -1002,7 +979,7 @@ It is an especially interesting building block for an open-source industrial OLP
 
 
 
-# ROS-Industrial
+## ROS-Industrial [![GitHub stars](https://img.shields.io/github/stars/ros-industrial/industrial_core?style=social&color=white)](https://github.com/ros-industrial/industrial_core/stargazers)
 
 
 
@@ -1128,7 +1105,7 @@ Availability and maintenance vary by robot family and repository.
 
 
 
-# Physics Engines
+# ⚡ Physics Engines
 
 
 
@@ -1182,7 +1159,7 @@ Gazebo
 
 
 
-# Robot Modeling & Kinematics
+# 📐 Robot Modeling & Kinematics
 
 
 
@@ -1290,7 +1267,7 @@ It can represent:
 
 
 
-# KDL
+## Orocos KDL [![GitHub stars](https://img.shields.io/github/stars/orocos/orocos_kinematics_dynamics?style=social&color=white)](https://github.com/orocos/orocos_kinematics_dynamics/stargazers)
 
 
 
@@ -1320,7 +1297,7 @@ KDL provides:
 
 
 
-# Pinocchio
+## Pinocchio [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=social&color=white)](https://github.com/stack-of-tasks/pinocchio/stargazers)
 
 
 
@@ -1360,7 +1337,7 @@ Useful for:
 
 
 
-# Robotics Toolbox
+## Robotics Toolbox [![GitHub stars](https://img.shields.io/github/stars/petercorke/robotics-toolbox-python?style=social&color=white)](https://github.com/petercorke/robotics-toolbox-python/stargazers)
 
 
 
@@ -1394,11 +1371,11 @@ Useful for:
 
 
 
-# CAD / 3D / Geometry
+# 🎨 CAD / 3D / Geometry
 
 
 
-## FreeCAD
+## FreeCAD [![GitHub stars](https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=social&color=white)](https://github.com/FreeCAD/FreeCAD/stargazers)
 
 
 
@@ -1448,7 +1425,7 @@ Useful for:
 
 
 
-# Blender
+## Blender [![GitHub stars](https://img.shields.io/github/stars/blender/blender?style=social&color=white)](https://github.com/blender/blender/stargazers)
 
 
 
@@ -1506,7 +1483,7 @@ It is not an industrial robot simulator by itself, but it is a powerful componen
 
 
 
-# Open Cascade
+## Open CASCADE Technology (OCCT) [![GitHub stars](https://img.shields.io/github/stars/Open-Cascade-SAS/OCCT?style=social&color=white)](https://github.com/Open-Cascade-SAS/OCCT/stargazers)
 
 
 
@@ -1554,7 +1531,7 @@ Provides a powerful geometric modeling kernel for:
 
 
 
-# Open3D
+## Open3D [![GitHub stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers)
 
 
 
@@ -1592,7 +1569,7 @@ Useful for:
 
 
 
-# Assimp
+## Assimp [![GitHub stars](https://img.shields.io/github/stars/assimp/assimp?style=social&color=white)](https://github.com/assimp/assimp/stargazers)
 
 
 
@@ -1634,11 +1611,11 @@ into simulation and visualization applications.
 
 
 
-# Path Planning & Trajectory Optimization
+# 🛤️ Path Planning & Trajectory Optimization
 
 
 
-## OMPL
+## OMPL [![GitHub stars](https://img.shields.io/github/stars/ompl/ompl?style=social&color=white)](https://github.com/ompl/ompl/stargazers)
 
 
 
@@ -1774,7 +1751,7 @@ Useful for:
 
 
 
-# TrajOpt
+## TrajOpt [![GitHub stars](https://img.shields.io/github/stars/tesseract-robotics/trajopt?style=social&color=white)](https://github.com/tesseract-robotics/trajopt/stargazers)
 
 
 
@@ -1806,7 +1783,7 @@ Useful for:
 
 
 
-# TOPP-RA
+## TOPP-RA [![GitHub stars](https://img.shields.io/github/stars/hungpham2511/toppra?style=social&color=white)](https://github.com/hungpham2511/toppra/stargazers)
 
 
 
@@ -1840,11 +1817,11 @@ Useful for:
 
 
 
-# Collision Detection
+# 💥 Collision Detection
 
 
 
-## FCL
+## FCL [![GitHub stars](https://img.shields.io/github/stars/flexible-collision-library/fcl?style=social&color=white)](https://github.com/flexible-collision-library/fcl/stargazers)
 
 
 
@@ -1904,7 +1881,7 @@ Bullet provides:
 
 
 
-## hpp-fcl
+## HPP-FCL / Coal [![GitHub stars](https://img.shields.io/github/stars/coal-library/coal?style=social&color=white)](https://github.com/coal-library/coal/stargazers)
 
 
 
@@ -1924,7 +1901,7 @@ A fast collision-detection library used in robotics.
 
 
 
-# Digital Twin & Visualization
+# 👓 Digital Twin & Visualization
 
 
 
@@ -1994,7 +1971,7 @@ Useful for:
 
 
 
-## OpenSceneGraph
+## OpenSceneGraph [![GitHub stars](https://img.shields.io/github/stars/openscenegraph/OpenSceneGraph?style=social&color=white)](https://github.com/openscenegraph/OpenSceneGraph/stargazers)
 
 
 
@@ -2010,7 +1987,7 @@ Open-source 3D graphics toolkit.
 
 
 
-## Three.js
+## Three.js [![GitHub stars](https://img.shields.io/github/stars/mrdoob/three.js?style=social&color=white)](https://github.com/mrdoob/three.js/stargazers)
 
 
 
@@ -2026,7 +2003,7 @@ Useful for building browser-based robot-cell visualization.
 
 
 
-## Babylon.js
+## Babylon.js [![GitHub stars](https://img.shields.io/github/stars/BabylonJS/Babylon.js?style=social&color=white)](https://github.com/BabylonJS/Babylon.js/stargazers)
 
 
 
@@ -2052,11 +2029,11 @@ Useful for:
 
 
 
-# Computer Vision & Perception
+# 📷 Computer Vision & Perception
 
 
 
-## OpenCV
+## OpenCV [![GitHub stars](https://img.shields.io/github/stars/opencv/opencv?style=social&color=white)](https://github.com/opencv/opencv/stargazers)
 
 
 
@@ -2142,7 +2119,7 @@ Useful for:
 
 
 
-# Manufacturing / Process Simulation Building Blocks
+# 🏭 Manufacturing / Process Simulation Building Blocks
 
 
 
@@ -2394,7 +2371,7 @@ Useful for:
 
 
 
-# Simulation Data & Automation
+# 📊 Simulation Data & Automation
 
 
 
@@ -2486,7 +2463,7 @@ export_program()
 
 
 
-# Testing & Benchmarking
+# 🧪 Testing & Benchmarking
 
 
 
@@ -2520,7 +2497,7 @@ A published simulator comparison has evaluated CoppeliaSim, Gazebo, MORSE and We
 
 
 
-# Commercial → Open-Source Mapping
+# 🔄 Commercial → Open-Source Mapping
 
 
 
@@ -2570,7 +2547,7 @@ A published simulator comparison has evaluated CoppeliaSim, Gazebo, MORSE and We
 
 
 
-# Robot Cell Simulation Problem Domains
+# 🧩 Robot Cell Simulation Problem Domains
 
 
 
@@ -2684,7 +2661,7 @@ The simulator must calculate:
 
 
 
-# Core Architecture
+# 🏛️ Core Architecture
 
 
 
@@ -2748,7 +2725,7 @@ flowchart TB
 
 
 
-# Reference Architecture
+# 📐 Reference Architecture
 
 
 
@@ -2814,7 +2791,7 @@ flowchart LR
 
 
 
-# Industrial Robot Cell Architecture
+# 🏗️ Industrial Robot Cell Architecture
 
 
 
@@ -2896,7 +2873,7 @@ flowchart TB
 
 
 
-# Offline Programming Architecture
+# 💻 Offline Programming Architecture
 
 
 
@@ -2946,7 +2923,7 @@ flowchart LR
 
 
 
-# Virtual Commissioning Architecture
+# 🔌 Virtual Commissioning Architecture
 
 
 
@@ -2996,7 +2973,7 @@ Virtual commissioning aims to test automation logic before the physical producti
 
 
 
-# Digital Twin Architecture
+# 🌐 Digital Twin Architecture
 
 
 
@@ -3058,7 +3035,7 @@ A digital twin becomes significantly more valuable when the model is synchronize
 
 
 
-# Robot Path Planning Architecture
+# 🛤️ Robot Path Planning Architecture
 
 
 
@@ -3100,7 +3077,7 @@ flowchart LR
 
 
 
-# Collision Detection Architecture
+# 💥 Collision Detection Architecture
 
 
 
@@ -3166,7 +3143,7 @@ Collision checks should include:
 
 
 
-# Capability Matrix
+# 📊 Capability Matrix
 
 
 
@@ -3216,7 +3193,7 @@ Collision checks should include:
 
 
 
-# Recommended Open-Source Stacks
+# 🛠️ Recommended Open-Source Stacks
 
 
 
@@ -3550,7 +3527,7 @@ Python
 
 
 
-# Best Open-Source Choices by Use Case
+# 🎯 Best Open-Source Choices by Use Case
 
 
 
@@ -3614,7 +3591,7 @@ Python
 
 
 
-# What Open Source Can and Cannot Replace
+# ⚖️ What Open Source Can and Cannot Replace
 
 
 
@@ -3750,7 +3727,7 @@ A custom open-source OLP platform therefore needs a robust **post-processing + c
 
 
 
-# Robot Cell Data Model
+# 📦 Robot Cell Data Model
 
 
 
@@ -3794,7 +3771,7 @@ Cell
 
 
 
-# Robot Model
+# 🤖 Robot Model
 
 
 
@@ -3834,7 +3811,7 @@ Robot
 
 
 
-# Workcell Model
+# 🏭 Workcell Model
 
 
 
@@ -3880,7 +3857,7 @@ Workcell
 
 
 
-# Robot Programming
+# 📝 Robot Programming
 
 
 
@@ -3952,7 +3929,7 @@ ABB  KUKA FANUC Yaskawa
 
 
 
-# Offline Programming
+# 💻 Offline Programming
 
 
 
@@ -4024,7 +4001,7 @@ flowchart TB
 
 
 
-# Path Planning
+# 🛤️ Path Planning
 
 
 
@@ -4174,7 +4151,7 @@ Useful libraries:
 
 
 
-# Reachability Analysis
+# 📏 Reachability Analysis
 
 
 
@@ -4252,7 +4229,7 @@ A reachability map can be visualized as:
 
 
 
-# Cycle-Time Analysis
+# ⏱️ Cycle-Time Analysis
 
 
 
@@ -4378,7 +4355,7 @@ flowchart LR
 
 
 
-# Digital Twin
+# 🌐 Digital Twin
 
 
 
@@ -4454,7 +4431,7 @@ Live Digital Twin
 
 
 
-# Virtual Commissioning
+# 🔌 Virtual Commissioning
 
 
 
@@ -4498,7 +4475,7 @@ Virtual commissioning connects the simulated cell to automation logic.
 
 
 
-# CAD Integration
+# 🎨 CAD Integration
 
 
 
@@ -4566,7 +4543,7 @@ Gazebo / Webots / Custom Renderer
 
 
 
-# Manufacturing Process Simulation
+# ⚙️ Manufacturing Process Simulation
 
 
 
@@ -4678,7 +4655,7 @@ flowchart TB
 
 
 
-# Robot Calibration
+# 🎯 Robot Calibration
 
 
 
@@ -4746,7 +4723,7 @@ Useful open-source tools can be built from:
 
 
 
-# Simulation-to-Real
+# 🔄 Simulation-to-Real
 
 
 
@@ -4800,7 +4777,7 @@ Simulation should never be treated as proof that a physical robot cell is safe.
 
 
 
-# AI / ML Integration
+# 🧠 AI / ML Integration
 
 
 
@@ -4916,7 +4893,7 @@ This can be used to train perception systems before deployment.
 
 
 
-# Security & Deployment
+# 🔒 Security & Deployment
 
 
 
@@ -4984,7 +4961,7 @@ Useful infrastructure:
 
 
 
-# Scalability
+# 📈 Scalability
 
 
 
@@ -5120,7 +5097,7 @@ Browser
 
 
 
-# Licensing
+# 📜 Licensing
 
 
 
@@ -5378,7 +5355,7 @@ This is one of the strongest approaches for building a broader open manufacturin
 
 
 
-# Open-Source Ecosystem Summary
+# 📋 Open-Source Ecosystem Summary
 
 
 
@@ -5448,7 +5425,7 @@ This is one of the strongest approaches for building a broader open manufacturin
 
 
 
-# Open-Source Shortlist
+# ⭐ Open-Source Shortlist
 
 
 
@@ -6792,7 +6769,7 @@ Three.js
 
 
 
-# Building a Fully Open Robot Cell Simulator
+# 🚀 Building a Fully Open Robot Cell Simulator
 
 
 
@@ -7370,7 +7347,7 @@ For most organizations wanting to build a serious open-source robot-cell simulat
 
 
 
-# Conclusion
+# 🏁 Conclusion
 
 
 
@@ -7542,7 +7519,7 @@ The strongest strategy is compositional:
 
 
 
-# Contributing
+# 🤝 Contributing
 
 
 
@@ -7598,9 +7575,13 @@ Useful contributions include:
 
 ---
 
+## 📈 Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Robot-Cell-Simulation&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Robot-Cell-Simulation&type=date&legend=top-left)
 
-# Disclaimer
+---
+
+# 📜 Disclaimer
 
 
 
