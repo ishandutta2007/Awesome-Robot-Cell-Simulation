@@ -350,36 +350,36 @@ The open-source ecosystem can be represented as:
 
 *Open-source robot simulators, physics engines, motion planners, kinematics solvers, CAD modelers, and industrial robotics libraries. Ranked and sorted in descending order by **GitHub Star Count**:*
 
-| 📦 Repository & Project | ⭐ GitHub Stars | 🛠️ Tech Stack / Category | 📖 Description & Cell Simulation Capabilities |
+| 📦 Repository & Project | ⭐ GitHub_Stars | 🛠️ Tech Stack / Category | 📖 Description & Cell Simulation Capabilities |
 | :--- | :--- | :--- | :--- |
-| **[FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD)** | [![GitHub stars](https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=social&color=white)](https://github.com/FreeCAD/FreeCAD/stargazers) | C++ / Python | Open-source parametric 3D CAD modeler with dedicated Robot Workbench for simulating 6-axis industrial robot kinematics, reachability, and trajectory export. |
-| **[BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js)** | [![GitHub stars](https://img.shields.io/github/stars/BabylonJS/Babylon.js?style=social&color=white)](https://github.com/BabylonJS/Babylon.js/stargazers) | TypeScript / WebGL / WebGPU | Powerful, beautiful, and simple Web 3D rendering engine used to build lightweight, zero-install in-browser digital twins and robotic workcell viewers. |
-| **[blender/blender](https://github.com/blender/blender)** | [![GitHub stars](https://img.shields.io/github/stars/blender/blender?style=social&color=white)](https://github.com/blender/blender/stargazers) | C / C++ / Python | Professional open-source 3D creation suite; renders photorealistic cell layouts, models end-effectors, imports CAD geometry, and generates synthetic datasets. |
-| **[google-deepmind/mujoco](https://github.com/google-deepmind/mujoco)** | [![GitHub stars](https://img.shields.io/github/stars/google-deepmind/mujoco?style=social&color=white)](https://github.com/google-deepmind/mujoco/stargazers) | C / C++ / Python | Multi-Joint dynamics with Contact; gold-standard physics engine for multi-body contact simulation, dexterous manipulation, and trajectory optimization. |
-| **[bulletphysics/bullet3](https://github.com/bulletphysics/bullet3)** | [![GitHub stars](https://img.shields.io/github/stars/bulletphysics/bullet3?style=social&color=white)](https://github.com/bulletphysics/bullet3/stargazers) | C++ / Python (PyBullet) | Industry-standard real-time collision detection and multi-body dynamics engine; widely used for robotics simulation, VR, and reinforcement learning. |
-| **[isl-org/Open3D](https://github.com/isl-org/Open3D)** | [![GitHub stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers) | C++ / Python | Modern library for 3D data processing; provides point cloud registration, mesh processing, surface reconstruction, and sensor simulation for workcells. |
-| **[assimp/assimp](https://github.com/assimp/assimp)** | [![GitHub stars](https://img.shields.io/github/stars/assimp/assimp?style=social&color=white)](https://github.com/assimp/assimp/stargazers) | C++ | Open Asset Import Library; loads and parses 40+ 3D file formats (STEP, IGES, STL, OBJ, glTF, Collada) into unified mesh structures for robot cells. |
-| **[isaac-sim/IsaacLab](https://github.com/isaac-sim/IsaacLab)** | [![GitHub stars](https://img.shields.io/github/stars/isaac-sim/IsaacLab?style=social&color=white)](https://github.com/isaac-sim/IsaacLab/stargazers) | Python / C++ | Unified and modular framework for robot learning in NVIDIA Isaac Sim; supports GPU-accelerated reinforcement learning and workcell manipulation tasks. |
-| **[NVIDIA-Omniverse/PhysX](https://github.com/NVIDIA-Omniverse/PhysX)** | [![GitHub stars](https://img.shields.io/github/stars/NVIDIA-Omniverse/PhysX?style=social&color=white)](https://github.com/NVIDIA-Omniverse/PhysX/stargazers) | C++ | Scalable real-time multi-platform physics engine powering NVIDIA Isaac Sim; provides rigid body, articulated robotics, and contact dynamics. |
-| **[cyberbotics/webots](https://github.com/cyberbotics/webots)** | [![GitHub stars](https://img.shields.io/github/stars/cyberbotics/webots?style=social&color=white)](https://github.com/cyberbotics/webots/stargazers) | C++ / Python / Java | Complete open-source robotics simulation package; offers realistic physics, industrial robot arm models, sensors, and out-of-the-box ROS/ROS 2 bridges. |
-| **[RobotLocomotion/drake](https://github.com/RobotLocomotion/drake)** | [![GitHub stars](https://img.shields.io/github/stars/RobotLocomotion/drake?style=social&color=white)](https://github.com/RobotLocomotion/drake/stargazers) | C++ / Python | MIT model-based design and verification toolbox for robotics; state-of-the-art inverse kinematics, trajectory optimization, and contact mechanics. |
-| **[stack-of-tasks/pinocchio](https://github.com/stack-of-tasks/pinocchio)** | [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=social&color=white)](https://github.com/stack-of-tasks/pinocchio/stargazers) | C++ / Python | Blazing-fast rigid body dynamics library using spatial vector algebra; provides hyper-fast analytical derivatives of forward/inverse dynamics. |
-| **[openscenegraph/OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph)** | [![GitHub stars](https://img.shields.io/github/stars/openscenegraph/OpenSceneGraph?style=social&color=white)](https://github.com/openscenegraph/OpenSceneGraph/stargazers) | C++ | High-performance open-source 3D graphics toolkit; used in industrial cell simulation, digital twins, and scientific visualization environments. |
-| **[petercorke/robotics-toolbox-python](https://github.com/petercorke/robotics-toolbox-python)** | [![GitHub stars](https://img.shields.io/github/stars/petercorke/robotics-toolbox-python?style=social&color=white)](https://github.com/petercorke/robotics-toolbox-python/stargazers) | Python | Iconic Robotics Toolbox for Python; provides serial-link arm kinematics, DH parameters, trajectory generation, and 3D graphic visualization. |
-| **[Open-Cascade-SAS/OCCT](https://github.com/Open-Cascade-SAS/OCCT)** | [![GitHub stars](https://img.shields.io/github/stars/Open-Cascade-SAS/OCCT?style=social&color=white)](https://github.com/Open-Cascade-SAS/OCCT/stargazers) | C++ | Open CASCADE Technology; the premier open-source 3D CAD modeling kernel for boundary representation (B-Rep), STEP/IGES exchange, and boolean ops. |
-| **[ompl/ompl](https://github.com/ompl/ompl)** | [![GitHub stars](https://img.shields.io/github/stars/ompl/ompl?style=social&color=white)](https://github.com/ompl/ompl/stargazers) | C++ / Python | Open Motion Planning Library; contains sampling-based motion planning algorithms (RRT*, PRM*, KPIECE) that power MoveIt 2 and Tesseract. |
-| **[moveit/moveit2](https://github.com/moveit/moveit2)** | [![GitHub stars](https://img.shields.io/github/stars/moveit/moveit2?style=social&color=white)](https://github.com/moveit/moveit2/stargazers) | C++ / ROS 2 | The robotics manipulation platform for ROS 2; incorporates state-of-the-art motion planning, inverse kinematics, 3D perception, and collision checking. |
-| **[flexible-collision-library/fcl](https://github.com/flexible-collision-library/fcl)** | [![GitHub stars](https://img.shields.io/github/stars/flexible-collision-library/fcl?style=social&color=white)](https://github.com/flexible-collision-library/fcl/stargazers) | C++ | Flexible Collision Library; provides proximity computation, discrete collision detection, continuous collision checking, and tolerance verification. |
-| **[gazebosim/gz-sim](https://github.com/gazebosim/gz-sim)** | [![GitHub stars](https://img.shields.io/github/stars/gazebosim/gz-sim?style=social&color=white)](https://github.com/gazebosim/gz-sim/stargazers) | C++ / ROS 2 | Next-generation Gazebo simulator; modular physics and rendering architecture designed for high-fidelity multi-robot workcells and ROS 2 systems. |
-| **[dartsim/dart](https://github.com/dartsim/dart)** | [![GitHub stars](https://img.shields.io/github/stars/dartsim/dart?style=social&color=white)](https://github.com/dartsim/dart/stargazers) | C++ | Dynamic Animation and Robotics Toolkit; provides kinematics and dynamics for multi-body systems with DART physics integration. |
-| **[hungpham2511/toppra](https://github.com/hungpham2511/toppra)** | [![GitHub stars](https://img.shields.io/github/stars/hungpham2511/toppra?style=social&color=white)](https://github.com/hungpham2511/toppra/stargazers) | C++ / Python | Time-Optimal Path Parameterization based on Reachability Analysis; computes time-optimal trajectories under velocity, acceleration, and torque constraints. |
-| **[orocos/orocos_kinematics_dynamics](https://github.com/orocos/orocos_kinematics_dynamics)** | [![GitHub stars](https://img.shields.io/github/stars/orocos/orocos_kinematics_dynamics?style=social&color=white)](https://github.com/orocos/orocos_kinematics_dynamics/stargazers) | C++ / Python | Orocos Kinematics and Dynamics Library (KDL); computes forward/inverse kinematics, geometric transformations, and kinematic chains for robotic arms. |
-| **[UniversalRobots/Universal_Robots_ROS2_Driver](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver)** | [![GitHub stars](https://img.shields.io/github/stars/UniversalRobots/Universal_Robots_ROS2_Driver?style=social&color=white)](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/stargazers) | C++ / ROS 2 | Official ROS 2 driver and simulation package for Universal Robots; provides URSim digital-twin simulation and external control interface. |
-| **[coal-library/coal](https://github.com/coal-library/coal)** | [![GitHub stars](https://img.shields.io/github/stars/coal-library/coal?style=social&color=white)](https://github.com/coal-library/coal/stargazers) | C++ / Python | Formerly HPP-FCL; collision and distance computation library with support for capsules, convex hulls, octrees, and fast proximity queries. |
-| **[tesseract-robotics/trajopt](https://github.com/tesseract-robotics/trajopt)** | [![GitHub stars](https://img.shields.io/github/stars/tesseract-robotics/trajopt?style=social&color=white)](https://github.com/tesseract-robotics/trajopt/stargazers) | C++ | Sequential quadratic programming (SQP) trajectory optimization framework for industrial robot collision avoidance and motion planning. |
-| **[open-rmf/rmf](https://github.com/open-rmf/rmf)** | [![GitHub stars](https://img.shields.io/github/stars/open-rmf/rmf?style=social&color=white)](https://github.com/open-rmf/rmf/stargazers) | C++ / ROS 2 | Open Robotics Middleware Framework; coordinates multi-fleet AMRs, automated doors, lifts, and workcell synchronization in smart factories. |
-| **[tesseract-robotics/tesseract](https://github.com/tesseract-robotics/tesseract)** | [![GitHub stars](https://img.shields.io/github/stars/tesseract-robotics/tesseract?style=social&color=white)](https://github.com/tesseract-robotics/tesseract/stargazers) | C++ / ROS 2 | Industrial motion planning and environment management framework designed specifically for robotic machining, welding, and painting workcells. |
-| **[ros-industrial/industrial_core](https://github.com/ros-industrial/industrial_core)** | [![GitHub stars](https://img.shields.io/github/stars/ros-industrial/industrial_core?style=social&color=white)](https://github.com/ros-industrial/industrial_core/stargazers) | C++ / ROS | Core ROS-Industrial packages containing standard interfaces, trajectory filters, and robot controller communication clients. |
+| **[FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD)** | [![GitHub_Stars](https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=social&color=white)](https://github.com/FreeCAD/FreeCAD/stargazers) | C++ / Python | Open-source parametric 3D CAD modeler with dedicated Robot Workbench for simulating 6-axis industrial robot kinematics, reachability, and trajectory export. |
+| **[BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js)** | [![GitHub_Stars](https://img.shields.io/github/stars/BabylonJS/Babylon.js?style=social&color=white)](https://github.com/BabylonJS/Babylon.js/stargazers) | TypeScript / WebGL / WebGPU | Powerful, beautiful, and simple Web 3D rendering engine used to build lightweight, zero-install in-browser digital twins and robotic workcell viewers. |
+| **[blender/blender](https://github.com/blender/blender)** | [![GitHub_Stars](https://img.shields.io/github/stars/blender/blender?style=social&color=white)](https://github.com/blender/blender/stargazers) | C / C++ / Python | Professional open-source 3D creation suite; renders photorealistic cell layouts, models end-effectors, imports CAD geometry, and generates synthetic datasets. |
+| **[google-deepmind/mujoco](https://github.com/google-deepmind/mujoco)** | [![GitHub_Stars](https://img.shields.io/github/stars/google-deepmind/mujoco?style=social&color=white)](https://github.com/google-deepmind/mujoco/stargazers) | C / C++ / Python | Multi-Joint dynamics with Contact; gold-standard physics engine for multi-body contact simulation, dexterous manipulation, and trajectory optimization. |
+| **[bulletphysics/bullet3](https://github.com/bulletphysics/bullet3)** | [![GitHub_Stars](https://img.shields.io/github/stars/bulletphysics/bullet3?style=social&color=white)](https://github.com/bulletphysics/bullet3/stargazers) | C++ / Python (PyBullet) | Industry-standard real-time collision detection and multi-body dynamics engine; widely used for robotics simulation, VR, and reinforcement learning. |
+| **[isl-org/Open3D](https://github.com/isl-org/Open3D)** | [![GitHub_Stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers) | C++ / Python | Modern library for 3D data processing; provides point cloud registration, mesh processing, surface reconstruction, and sensor simulation for workcells. |
+| **[assimp/assimp](https://github.com/assimp/assimp)** | [![GitHub_Stars](https://img.shields.io/github/stars/assimp/assimp?style=social&color=white)](https://github.com/assimp/assimp/stargazers) | C++ | Open Asset Import Library; loads and parses 40+ 3D file formats (STEP, IGES, STL, OBJ, glTF, Collada) into unified mesh structures for robot cells. |
+| **[isaac-sim/IsaacLab](https://github.com/isaac-sim/IsaacLab)** | [![GitHub_Stars](https://img.shields.io/github/stars/isaac-sim/IsaacLab?style=social&color=white)](https://github.com/isaac-sim/IsaacLab/stargazers) | Python / C++ | Unified and modular framework for robot learning in NVIDIA Isaac Sim; supports GPU-accelerated reinforcement learning and workcell manipulation tasks. |
+| **[NVIDIA-Omniverse/PhysX](https://github.com/NVIDIA-Omniverse/PhysX)** | [![GitHub_Stars](https://img.shields.io/github/stars/NVIDIA-Omniverse/PhysX?style=social&color=white)](https://github.com/NVIDIA-Omniverse/PhysX/stargazers) | C++ | Scalable real-time multi-platform physics engine powering NVIDIA Isaac Sim; provides rigid body, articulated robotics, and contact dynamics. |
+| **[cyberbotics/webots](https://github.com/cyberbotics/webots)** | [![GitHub_Stars](https://img.shields.io/github/stars/cyberbotics/webots?style=social&color=white)](https://github.com/cyberbotics/webots/stargazers) | C++ / Python / Java | Complete open-source robotics simulation package; offers realistic physics, industrial robot arm models, sensors, and out-of-the-box ROS/ROS 2 bridges. |
+| **[RobotLocomotion/drake](https://github.com/RobotLocomotion/drake)** | [![GitHub_Stars](https://img.shields.io/github/stars/RobotLocomotion/drake?style=social&color=white)](https://github.com/RobotLocomotion/drake/stargazers) | C++ / Python | MIT model-based design and verification toolbox for robotics; state-of-the-art inverse kinematics, trajectory optimization, and contact mechanics. |
+| **[stack-of-tasks/pinocchio](https://github.com/stack-of-tasks/pinocchio)** | [![GitHub_Stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=social&color=white)](https://github.com/stack-of-tasks/pinocchio/stargazers) | C++ / Python | Blazing-fast rigid body dynamics library using spatial vector algebra; provides hyper-fast analytical derivatives of forward/inverse dynamics. |
+| **[openscenegraph/OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph)** | [![GitHub_Stars](https://img.shields.io/github/stars/openscenegraph/OpenSceneGraph?style=social&color=white)](https://github.com/openscenegraph/OpenSceneGraph/stargazers) | C++ | High-performance open-source 3D graphics toolkit; used in industrial cell simulation, digital twins, and scientific visualization environments. |
+| **[petercorke/robotics-toolbox-python](https://github.com/petercorke/robotics-toolbox-python)** | [![GitHub_Stars](https://img.shields.io/github/stars/petercorke/robotics-toolbox-python?style=social&color=white)](https://github.com/petercorke/robotics-toolbox-python/stargazers) | Python | Iconic Robotics Toolbox for Python; provides serial-link arm kinematics, DH parameters, trajectory generation, and 3D graphic visualization. |
+| **[Open-Cascade-SAS/OCCT](https://github.com/Open-Cascade-SAS/OCCT)** | [![GitHub_Stars](https://img.shields.io/github/stars/Open-Cascade-SAS/OCCT?style=social&color=white)](https://github.com/Open-Cascade-SAS/OCCT/stargazers) | C++ | Open CASCADE Technology; the premier open-source 3D CAD modeling kernel for boundary representation (B-Rep), STEP/IGES exchange, and boolean ops. |
+| **[ompl/ompl](https://github.com/ompl/ompl)** | [![GitHub_Stars](https://img.shields.io/github/stars/ompl/ompl?style=social&color=white)](https://github.com/ompl/ompl/stargazers) | C++ / Python | Open Motion Planning Library; contains sampling-based motion planning algorithms (RRT*, PRM*, KPIECE) that power MoveIt 2 and Tesseract. |
+| **[moveit/moveit2](https://github.com/moveit/moveit2)** | [![GitHub_Stars](https://img.shields.io/github/stars/moveit/moveit2?style=social&color=white)](https://github.com/moveit/moveit2/stargazers) | C++ / ROS 2 | The robotics manipulation platform for ROS 2; incorporates state-of-the-art motion planning, inverse kinematics, 3D perception, and collision checking. |
+| **[flexible-collision-library/fcl](https://github.com/flexible-collision-library/fcl)** | [![GitHub_Stars](https://img.shields.io/github/stars/flexible-collision-library/fcl?style=social&color=white)](https://github.com/flexible-collision-library/fcl/stargazers) | C++ | Flexible Collision Library; provides proximity computation, discrete collision detection, continuous collision checking, and tolerance verification. |
+| **[gazebosim/gz-sim](https://github.com/gazebosim/gz-sim)** | [![GitHub_Stars](https://img.shields.io/github/stars/gazebosim/gz-sim?style=social&color=white)](https://github.com/gazebosim/gz-sim/stargazers) | C++ / ROS 2 | Next-generation Gazebo simulator; modular physics and rendering architecture designed for high-fidelity multi-robot workcells and ROS 2 systems. |
+| **[dartsim/dart](https://github.com/dartsim/dart)** | [![GitHub_Stars](https://img.shields.io/github/stars/dartsim/dart?style=social&color=white)](https://github.com/dartsim/dart/stargazers) | C++ | Dynamic Animation and Robotics Toolkit; provides kinematics and dynamics for multi-body systems with DART physics integration. |
+| **[hungpham2511/toppra](https://github.com/hungpham2511/toppra)** | [![GitHub_Stars](https://img.shields.io/github/stars/hungpham2511/toppra?style=social&color=white)](https://github.com/hungpham2511/toppra/stargazers) | C++ / Python | Time-Optimal Path Parameterization based on Reachability Analysis; computes time-optimal trajectories under velocity, acceleration, and torque constraints. |
+| **[orocos/orocos_kinematics_dynamics](https://github.com/orocos/orocos_kinematics_dynamics)** | [![GitHub_Stars](https://img.shields.io/github/stars/orocos/orocos_kinematics_dynamics?style=social&color=white)](https://github.com/orocos/orocos_kinematics_dynamics/stargazers) | C++ / Python | Orocos Kinematics and Dynamics Library (KDL); computes forward/inverse kinematics, geometric transformations, and kinematic chains for robotic arms. |
+| **[UniversalRobots/Universal_Robots_ROS2_Driver](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver)** | [![GitHub_Stars](https://img.shields.io/github/stars/UniversalRobots/Universal_Robots_ROS2_Driver?style=social&color=white)](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/stargazers) | C++ / ROS 2 | Official ROS 2 driver and simulation package for Universal Robots; provides URSim digital-twin simulation and external control interface. |
+| **[coal-library/coal](https://github.com/coal-library/coal)** | [![GitHub_Stars](https://img.shields.io/github/stars/coal-library/coal?style=social&color=white)](https://github.com/coal-library/coal/stargazers) | C++ / Python | Formerly HPP-FCL; collision and distance computation library with support for capsules, convex hulls, octrees, and fast proximity queries. |
+| **[tesseract-robotics/trajopt](https://github.com/tesseract-robotics/trajopt)** | [![GitHub_Stars](https://img.shields.io/github/stars/tesseract-robotics/trajopt?style=social&color=white)](https://github.com/tesseract-robotics/trajopt/stargazers) | C++ | Sequential quadratic programming (SQP) trajectory optimization framework for industrial robot collision avoidance and motion planning. |
+| **[open-rmf/rmf](https://github.com/open-rmf/rmf)** | [![GitHub_Stars](https://img.shields.io/github/stars/open-rmf/rmf?style=social&color=white)](https://github.com/open-rmf/rmf/stargazers) | C++ / ROS 2 | Open Robotics Middleware Framework; coordinates multi-fleet AMRs, automated doors, lifts, and workcell synchronization in smart factories. |
+| **[tesseract-robotics/tesseract](https://github.com/tesseract-robotics/tesseract)** | [![GitHub_Stars](https://img.shields.io/github/stars/tesseract-robotics/tesseract?style=social&color=white)](https://github.com/tesseract-robotics/tesseract/stargazers) | C++ / ROS 2 | Industrial motion planning and environment management framework designed specifically for robotic machining, welding, and painting workcells. |
+| **[ros-industrial/industrial_core](https://github.com/ros-industrial/industrial_core)** | [![GitHub_Stars](https://img.shields.io/github/stars/ros-industrial/industrial_core?style=social&color=white)](https://github.com/ros-industrial/industrial_core/stargazers) | C++ / ROS | Core ROS-Industrial packages containing standard interfaces, trajectory filters, and robot controller communication clients. |
 
 ---
 
@@ -387,7 +387,7 @@ The open-source ecosystem can be represented as:
 
 
 
-## 1. Gazebo [![GitHub stars](https://img.shields.io/github/stars/gazebosim/gz-sim?style=social&color=white)](https://github.com/gazebosim/gz-sim/stargazers)
+## 1. Gazebo [![GitHub_Stars](https://img.shields.io/github/stars/gazebosim/gz-sim?style=social&color=white)](https://github.com/gazebosim/gz-sim/stargazers)
 
 
 
@@ -481,7 +481,7 @@ Current Gazebo is the successor to the older Gazebo Classic ecosystem; Gazebo Cl
 
 
 
-## 2. Webots [![GitHub stars](https://img.shields.io/github/stars/cyberbotics/webots?style=social&color=white)](https://github.com/cyberbotics/webots/stargazers)
+## 2. Webots [![GitHub_Stars](https://img.shields.io/github/stars/cyberbotics/webots?style=social&color=white)](https://github.com/cyberbotics/webots/stargazers)
 
 
 
@@ -555,7 +555,7 @@ It is particularly useful for:
 
 
 
-## 3. MuJoCo [![GitHub stars](https://img.shields.io/github/stars/google-deepmind/mujoco?style=social&color=white)](https://github.com/google-deepmind/mujoco/stargazers)
+## 3. MuJoCo [![GitHub_Stars](https://img.shields.io/github/stars/google-deepmind/mujoco?style=social&color=white)](https://github.com/google-deepmind/mujoco/stargazers)
 
 
 
@@ -669,7 +669,7 @@ Independent simulator comparisons have evaluated CoppeliaSim alongside Gazebo, W
 
 
 
-## 5. PyBullet [![GitHub stars](https://img.shields.io/github/stars/bulletphysics/bullet3?style=social&color=white)](https://github.com/bulletphysics/bullet3/stargazers)
+## 5. PyBullet [![GitHub_Stars](https://img.shields.io/github/stars/bulletphysics/bullet3?style=social&color=white)](https://github.com/bulletphysics/bullet3/stargazers)
 
 
 
@@ -709,7 +709,7 @@ Useful for:
 
 
 
-## 6. Drake [![GitHub stars](https://img.shields.io/github/stars/RobotLocomotion/drake?style=social&color=white)](https://github.com/RobotLocomotion/drake/stargazers)
+## 6. Drake [![GitHub_Stars](https://img.shields.io/github/stars/RobotLocomotion/drake?style=social&color=white)](https://github.com/RobotLocomotion/drake/stargazers)
 
 
 
@@ -763,7 +763,7 @@ Drake is especially strong for mathematically rigorous robotics applications.
 
 
 
-## 7. Newton [![GitHub stars](https://img.shields.io/github/stars/newton-physics/newton?style=social&color=white)](https://github.com/newton-physics/newton/stargazers)
+## 7. Newton [![GitHub_Stars](https://img.shields.io/github/stars/newton-physics/newton?style=social&color=white)](https://github.com/newton-physics/newton/stargazers)
 
 
 
@@ -847,7 +847,7 @@ This combination is particularly powerful for building an open industrial roboti
 
 
 
-## MoveIt 2 [![GitHub stars](https://img.shields.io/github/stars/moveit/moveit2?style=social&color=white)](https://github.com/moveit/moveit2/stargazers)
+## MoveIt 2 [![GitHub_Stars](https://img.shields.io/github/stars/moveit/moveit2?style=social&color=white)](https://github.com/moveit/moveit2/stargazers)
 
 
 
@@ -935,7 +935,7 @@ MoveIt 2
 
 
 
-## Tesseract Robotics [![GitHub stars](https://img.shields.io/github/stars/tesseract-robotics/tesseract?style=social&color=white)](https://github.com/tesseract-robotics/tesseract/stargazers)
+## Tesseract Robotics [![GitHub_Stars](https://img.shields.io/github/stars/tesseract-robotics/tesseract?style=social&color=white)](https://github.com/tesseract-robotics/tesseract/stargazers)
 
 
 
@@ -979,7 +979,7 @@ It is an especially interesting building block for an open-source industrial OLP
 
 
 
-## ROS-Industrial [![GitHub stars](https://img.shields.io/github/stars/ros-industrial/industrial_core?style=social&color=white)](https://github.com/ros-industrial/industrial_core/stargazers)
+## ROS-Industrial [![GitHub_Stars](https://img.shields.io/github/stars/ros-industrial/industrial_core?style=social&color=white)](https://github.com/ros-industrial/industrial_core/stargazers)
 
 
 
@@ -1267,7 +1267,7 @@ It can represent:
 
 
 
-## Orocos KDL [![GitHub stars](https://img.shields.io/github/stars/orocos/orocos_kinematics_dynamics?style=social&color=white)](https://github.com/orocos/orocos_kinematics_dynamics/stargazers)
+## Orocos KDL [![GitHub_Stars](https://img.shields.io/github/stars/orocos/orocos_kinematics_dynamics?style=social&color=white)](https://github.com/orocos/orocos_kinematics_dynamics/stargazers)
 
 
 
@@ -1297,7 +1297,7 @@ KDL provides:
 
 
 
-## Pinocchio [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=social&color=white)](https://github.com/stack-of-tasks/pinocchio/stargazers)
+## Pinocchio [![GitHub_Stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=social&color=white)](https://github.com/stack-of-tasks/pinocchio/stargazers)
 
 
 
@@ -1337,7 +1337,7 @@ Useful for:
 
 
 
-## Robotics Toolbox [![GitHub stars](https://img.shields.io/github/stars/petercorke/robotics-toolbox-python?style=social&color=white)](https://github.com/petercorke/robotics-toolbox-python/stargazers)
+## Robotics Toolbox [![GitHub_Stars](https://img.shields.io/github/stars/petercorke/robotics-toolbox-python?style=social&color=white)](https://github.com/petercorke/robotics-toolbox-python/stargazers)
 
 
 
@@ -1375,7 +1375,7 @@ Useful for:
 
 
 
-## FreeCAD [![GitHub stars](https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=social&color=white)](https://github.com/FreeCAD/FreeCAD/stargazers)
+## FreeCAD [![GitHub_Stars](https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=social&color=white)](https://github.com/FreeCAD/FreeCAD/stargazers)
 
 
 
@@ -1425,7 +1425,7 @@ Useful for:
 
 
 
-## Blender [![GitHub stars](https://img.shields.io/github/stars/blender/blender?style=social&color=white)](https://github.com/blender/blender/stargazers)
+## Blender [![GitHub_Stars](https://img.shields.io/github/stars/blender/blender?style=social&color=white)](https://github.com/blender/blender/stargazers)
 
 
 
@@ -1483,7 +1483,7 @@ It is not an industrial robot simulator by itself, but it is a powerful componen
 
 
 
-## Open CASCADE Technology (OCCT) [![GitHub stars](https://img.shields.io/github/stars/Open-Cascade-SAS/OCCT?style=social&color=white)](https://github.com/Open-Cascade-SAS/OCCT/stargazers)
+## Open CASCADE Technology (OCCT) [![GitHub_Stars](https://img.shields.io/github/stars/Open-Cascade-SAS/OCCT?style=social&color=white)](https://github.com/Open-Cascade-SAS/OCCT/stargazers)
 
 
 
@@ -1531,7 +1531,7 @@ Provides a powerful geometric modeling kernel for:
 
 
 
-## Open3D [![GitHub stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers)
+## Open3D [![GitHub_Stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers)
 
 
 
@@ -1569,7 +1569,7 @@ Useful for:
 
 
 
-## Assimp [![GitHub stars](https://img.shields.io/github/stars/assimp/assimp?style=social&color=white)](https://github.com/assimp/assimp/stargazers)
+## Assimp [![GitHub_Stars](https://img.shields.io/github/stars/assimp/assimp?style=social&color=white)](https://github.com/assimp/assimp/stargazers)
 
 
 
@@ -1615,7 +1615,7 @@ into simulation and visualization applications.
 
 
 
-## OMPL [![GitHub stars](https://img.shields.io/github/stars/ompl/ompl?style=social&color=white)](https://github.com/ompl/ompl/stargazers)
+## OMPL [![GitHub_Stars](https://img.shields.io/github/stars/ompl/ompl?style=social&color=white)](https://github.com/ompl/ompl/stargazers)
 
 
 
@@ -1751,7 +1751,7 @@ Useful for:
 
 
 
-## TrajOpt [![GitHub stars](https://img.shields.io/github/stars/tesseract-robotics/trajopt?style=social&color=white)](https://github.com/tesseract-robotics/trajopt/stargazers)
+## TrajOpt [![GitHub_Stars](https://img.shields.io/github/stars/tesseract-robotics/trajopt?style=social&color=white)](https://github.com/tesseract-robotics/trajopt/stargazers)
 
 
 
@@ -1783,7 +1783,7 @@ Useful for:
 
 
 
-## TOPP-RA [![GitHub stars](https://img.shields.io/github/stars/hungpham2511/toppra?style=social&color=white)](https://github.com/hungpham2511/toppra/stargazers)
+## TOPP-RA [![GitHub_Stars](https://img.shields.io/github/stars/hungpham2511/toppra?style=social&color=white)](https://github.com/hungpham2511/toppra/stargazers)
 
 
 
@@ -1821,7 +1821,7 @@ Useful for:
 
 
 
-## FCL [![GitHub stars](https://img.shields.io/github/stars/flexible-collision-library/fcl?style=social&color=white)](https://github.com/flexible-collision-library/fcl/stargazers)
+## FCL [![GitHub_Stars](https://img.shields.io/github/stars/flexible-collision-library/fcl?style=social&color=white)](https://github.com/flexible-collision-library/fcl/stargazers)
 
 
 
@@ -1881,7 +1881,7 @@ Bullet provides:
 
 
 
-## HPP-FCL / Coal [![GitHub stars](https://img.shields.io/github/stars/coal-library/coal?style=social&color=white)](https://github.com/coal-library/coal/stargazers)
+## HPP-FCL / Coal [![GitHub_Stars](https://img.shields.io/github/stars/coal-library/coal?style=social&color=white)](https://github.com/coal-library/coal/stargazers)
 
 
 
@@ -1971,7 +1971,7 @@ Useful for:
 
 
 
-## OpenSceneGraph [![GitHub stars](https://img.shields.io/github/stars/openscenegraph/OpenSceneGraph?style=social&color=white)](https://github.com/openscenegraph/OpenSceneGraph/stargazers)
+## OpenSceneGraph [![GitHub_Stars](https://img.shields.io/github/stars/openscenegraph/OpenSceneGraph?style=social&color=white)](https://github.com/openscenegraph/OpenSceneGraph/stargazers)
 
 
 
@@ -1987,7 +1987,7 @@ Open-source 3D graphics toolkit.
 
 
 
-## Three.js [![GitHub stars](https://img.shields.io/github/stars/mrdoob/three.js?style=social&color=white)](https://github.com/mrdoob/three.js/stargazers)
+## Three.js [![GitHub_Stars](https://img.shields.io/github/stars/mrdoob/three.js?style=social&color=white)](https://github.com/mrdoob/three.js/stargazers)
 
 
 
@@ -2003,7 +2003,7 @@ Useful for building browser-based robot-cell visualization.
 
 
 
-## Babylon.js [![GitHub stars](https://img.shields.io/github/stars/BabylonJS/Babylon.js?style=social&color=white)](https://github.com/BabylonJS/Babylon.js/stargazers)
+## Babylon.js [![GitHub_Stars](https://img.shields.io/github/stars/BabylonJS/Babylon.js?style=social&color=white)](https://github.com/BabylonJS/Babylon.js/stargazers)
 
 
 
@@ -2033,7 +2033,7 @@ Useful for:
 
 
 
-## OpenCV [![GitHub stars](https://img.shields.io/github/stars/opencv/opencv?style=social&color=white)](https://github.com/opencv/opencv/stargazers)
+## OpenCV [![GitHub_Stars](https://img.shields.io/github/stars/opencv/opencv?style=social&color=white)](https://github.com/opencv/opencv/stargazers)
 
 
 
